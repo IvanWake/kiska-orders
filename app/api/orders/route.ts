@@ -235,8 +235,8 @@ export async function POST(request: NextRequest) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: NOTIFICATION_EMAIL,
-          subject: `🎀 Новый заказ вкусняшек!`,
+          email: NOTIFICATION_EMAIL,
+          title: `🎀 Новый заказ вкусняшек!`,
           html: emailHtml,
         }),
       })
