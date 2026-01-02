@@ -6,7 +6,7 @@ const MONGODB_URI =
     "mongodb+srv://Vercel-Admin-support-applocation:OqTExNvBbS2PZQVl@support-applocation.3tzo10r.mongodb.net/?retryWrites=true&w=majority"
 const DB_NAME = "wishlist"
 const COLLECTION_NAME = "orders"
-const NOTIFICATION_EMAIL = "support@tagmate.ru"
+const NOTIFICATION_EMAIL = "timofeyevim@gmail.com"
 
 let cachedClient: MongoClient | null = null
 
