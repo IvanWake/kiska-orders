@@ -231,7 +231,7 @@ export async function POST(request: NextRequest) {
 </html>
       `
 
-      await fetch("https://api.tagmate.ru/api/mailer/send", {
+      await fetch("https://api.tagmate.ru/api/settings/mail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
